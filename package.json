@@ -1,0 +1,27 @@
+{
+  "name": "com.kyberneees.auth.jwt",
+  "version": "0.1.0",
+  "description": "JWT authentication module for auth.kyberneees.com (User Identity & Management as a Service)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkyberneees/com.kyberneees.auth.jwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "auth"
+  ],
+  "author": "Rolando Santamaria Maso <kyberneees@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jkyberneees/com.kyberneees.auth.jwt/issues"
+  },
+  "homepage": "https://github.com/jkyberneees/com.kyberneees.auth.jwt#readme",
+  "dependencies": {
+    "express-unless": "^0.3.0",
+    "jsonwebtoken": "^7.1.9"
+  }
+}
