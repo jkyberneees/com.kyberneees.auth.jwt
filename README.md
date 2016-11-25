@@ -23,7 +23,7 @@ const server = restify.createServer({
     name: 'yourapp.com',
     version: ['1.0.0']
 });
-server.use(jwt.middleware(const));
+server.use(jwt.middleware(config));
 ```
 
 # WIP
